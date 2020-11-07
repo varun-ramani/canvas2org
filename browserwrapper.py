@@ -2,8 +2,6 @@ import selenium
 from selenium import webdriver
 from typing import List
 
-from utils import clean_padding_whitespace, create_datetime
-
 class BrowserWrapper:
     def __init__(self, browser_type="Safari"):
         if browser_type == "Safari":
